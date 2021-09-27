@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"
+      defer
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Survey_form</title>
+  </head>
+  <body>
+    <div id="main" class="container">
+        <div class="img-h1">
+            <div id="img-div" class="head-line">
+                <img id="image" class="logo" src="./cafe_orm_logo.png" alt="logo" />
+                <figcaption class="caption" id="img-caption">
+                    The cafeteria, always welcome you :)</figcaption>
+            </div>
+
+            <div class="survey" id="tribute-info">
+                <h1 id="title" class="survey__title">Customer Satisfaction Survey</h1>
+            </div>
+        </div>
+
+        <div class="form-structure">
+            <form id="survey-form" action="/" class="form__info">
+                <label for="name" id="name-label" class="name-email">User name </label>
+                <br />
+                <input
+                    class="info"
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Enter your name"
+                    required
+                />
+                <br>        
+                <label id="email-label" for="email" class="name-email">Email</label>
+                <br/><input 
+                id="email"
+                class="info"
+                type="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+                />
+
+                <p class="question__p">1. Do you like Orm's customer service?</p>
+                <input type="radio" id="yes" name="answer" value="yes" />
+                <label class="answer" for="yes">YES</label><br />
+                <input type="radio" id="normal" name="answer" value="normal"/>
+                <label class="answer" for="normal">IT'S OK</label><br />
+                <input type="radio" id="no" name="answer" value="no" />
+                <label class="answer" for="no">NO</label><br />
+
+                <p id="description" class="question__p">
+                    2. Which is your favorite drink in Orm?
+                </p>
+                <select name="drinks" id="dropdown" class="selects">
+                    <option value="pick">----------pick here----------</option>
+                    <option value="coffee">coffee</option>
+                    <option value="fruit-juice">Fruit Juice</option>
+                    <option value="orm-tea">ORM tea special</option>
+                </select>
+
+                <div class="question">
+                    <p class="question__p">3. Which is your favorite menu in Orm?</p>
+                    <select name="menu" id="dropdown_2" class="selects">
+                    <option value="pick">----------pick here----------</option>
+                    <option value="sandwich">Sandwich</option>
+                    <option value="egg-tart">Home made Egg tart</option>
+                    <option value="red-bean-porridge">
+                        Red bean porridge
+                    </option>
+                    </select>
+
+                    <p class="question__p">
+                        4. When you visit Cafe Orm, what is the reason to choose here?
+                    </p>
+                    <div class="box4">
+                    <input
+                        type="checkbox"
+                        id="food-quality"
+                        name="food-quality"
+                        value="food-quality"
+                    />
+                    <label for="food-quality" class="label">Good quality of the menu</label><br />
+                    <input
+                        type="checkbox"
+                        id="location"
+                        name="location"
+                        value="location"
+                    />
+                    <label for="location" class="label">Location</label><br />
+                    <input
+                        type="checkbox"
+                        id="meeting"
+                        name="meeting"
+                        value="meeting"
+                    />
+                    <label for="meeting" class="label">For meeting</label><br />
+                    <input type="checkbox" id="study" name="study" value="study" />
+                    <label for="study" class="label">For studying or working</label><br />
+                    <input
+                        type="checkbox"
+                        id="interior"
+                        name="interior"
+                        value="interior"
+                    />
+                    <label for="interior" class="label">Interior setting</label><br />
+                    <input type="checkbox" id="music" name="music" value="music" />
+                    <label for="music" class="label">Cafeteria Music list and mood</label><br />
+                    <input type="checkbox" id="different" name="different" value="different" />
+                    <label for="different" class="label">different reasons</label><br />
+                    </div>
+                    <p class="question__p">5. How often do you visit Cafe Orm in a week?</p>
+                    <input type="number" id="number" min="0" max="7" class="number-bar" placeholder="click">
+                    <label for="number" id="number-label" class="label" >times</label>
+
+                    <p class="question__p">
+                        If you have a comment for Orm, please tell us:)
+                    </p>
+                    <textarea
+                        name="comment"
+                        id="comment"
+                        cols="40"
+                        rows="10"
+                    ></textarea>
+
+                    <button id="submit"></button>
+
+            </form>
+        </div>
+
+        <div class="notice">
+            <p class="home-page">To visit Orm's Home-page
+            <a class="links"href="https://cafeorm.modoo.at/">CLICK HERE</a> please.
+            </p>
+        </div>
+
+        <footer>
+            Background image is from <a class="links" id="tribute-link" target="_blank" href="<a
+            href="https://www.freepik.com/vectors/background"
+            >Background vector created by freepik - www.freepik.com</a
+            >
+        </footer>
+    </div>
+  </body>
+</html>
