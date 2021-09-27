@@ -101,17 +101,36 @@ footer {
   color: rgb(57, 67, 67);
 }
 
+.box4 {
+  position: relative;
+}
+.box4__inner {
+  position: relative;
+}
 @media (min-width: 760px) {
   .form-structure {
     text-align: center;
   }
 
-  .box4{
-      text-align: left;
-      width: 380px;
-      position: relative;
-      left: 34em;
-  
+  .box4 {
+    position: relative;
   }
+
+  .box4__inner {
+    width: 280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    /* height: 150px; */
+    position: relative;
+  }
+
+  .box4__inner label {
+    position: relative;
+    bottom: 16px;
+    width: 235px;
+    margin: 0 auto;
+    text-align: start;
+    height: 20px;
   }
 }
