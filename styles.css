@@ -117,7 +117,6 @@ footer {
   }
 
   .box4__inner {
-    border: 1px solid salmon;
     width: 280px;
     margin: 0 auto;
     padding-top: 20px;
@@ -128,8 +127,6 @@ footer {
   }
 
   .box4__inner label {
-    border: 1px solid salmon;
-
     position: relative;
     bottom: 16px;
     width: 235px;
