@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" defer></script> -->
     <title>Survey_form</title>
   </head>
   <body>
     <div id="main" class="container">
         <div class="img-h1">
             <div id="img-div" class="head-line">
-                <img id="image" class="logo" src="./cafe_orm_logo.png" alt="logo" />
+                <img id="image" class="logo" src="./coffee.png" alt="logo" />
                 <figcaption class="caption" id="img-caption">
                     The cafeteria, always welcome you :)</figcaption>
             </div>
@@ -45,24 +45,24 @@
                 required
                 />
 
-                <p class="question__p">1. Do you like Orm's customer service?</p>
+                <p class="question__p">1. Do you like Dreaming tree's customer service?</p>
                 <input type="radio" id="yes" name="answer" value="yes" />
                 <label class="answer" for="yes">YES</label><br />
                 <input type="radio" id="no" name="answer" value="no" />
                 <label class="answer" for="no">NO</label><br />
 
                 <p id="description" class="question__p">
-                    2. Which is your favorite drink in Orm?
+                    2. Which is your favorite drink in Dreaming tree?
                 </p>
                 <select name="drinks" id="dropdown" class="selects">
                     <option value="pick">----------pick here----------</option>
                     <option value="coffee">coffee</option>
                     <option value="fruit-juice">Fruit Juice</option>
-                    <option value="orm-tea">ORM tea special</option>
+                    <option value="orm-tea">Dreaming tree tea special</option>
                 </select>
 
                 <div class="question">
-                    <p class="question__p">3. Which is your favorite menu in Orm?</p>
+                    <p class="question__p">3. Which is your favorite menu in Dreaming tree?</p>
                     <select name="menu" id="dropdown_2" class="selects">
                     <option value="pick">----------pick here----------</option>
                     <option value="sandwich">Sandwich</option>
@@ -73,7 +73,7 @@
                     </select>
 
                     <p class="question__p">
-                        4. When you visit Cafe Orm, what is the reason to choose here?
+                        4. When you visit Dreaming tree, what is the reason to choose here?
                     </p>
                     <div class="box4">
                         <div class="box4__inner">
@@ -114,12 +114,12 @@
                         </div>
                    
                     </div>
-                    <p class="question__p">5. How often do you visit Cafe Orm in a week?</p>
+                    <p class="question__p">5. How often do you visit Dreaming tree in a week?</p>
                     <input type="number" id="number" min="0" max="7" class="number-bar" placeholder="click">
                     <label for="number" id="number-label" class="label" >times</label>
 
                     <p class="question__p">
-                        If you have a comment for Orm, please tell us:)
+                        If you have a comment for Dreaming tree, please tell us:)
                     </p>
                     <textarea
                         name="comment"
@@ -133,17 +133,19 @@
             </form>
         </div>
 
-        <div class="notice">
-            <p class="home-page">To visit Orm's Home-page
+        <!-- <div class="notice">
+            <p class="home-page">To visit Dreaming tree's Home-page
             <a class="links"href="https://cafeorm.modoo.at/">CLICK HERE</a> please.
             </p>
-        </div>
+        </div> -->
 
         <footer>
             Background image is from <a class="links" id="tribute-link" target="_blank" href="<a
             href="https://www.freepik.com/vectors/background"
             >Background vector created by freepik - www.freepik.com</a
             >
+            <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
         </footer>
     </div>
   </body>
