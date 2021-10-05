@@ -28,8 +28,8 @@ body {
 
 .logo {
   width: 200px;
-  border-radius: 50%;
-  opacity: 0.9;
+  border-radius: 40%;
+  opacity: 0.6;
 }
 .caption {
   font-weight: 100;
